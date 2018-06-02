@@ -1,0 +1,133 @@
+/*--navbar--*/
+.navbar {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.navbar-logo {
+  margin-top: 0;
+  height: 50px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:link {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+
+/*--jumbotron--*/
+.jumbotron {
+  height: 400px;
+  background-image: url(../images/JumbotronImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+  position:relative;
+}
+
+/*--aboutus--*/
+.about-content {
+  height: auto;
+}
+
+/*--carousel--*/
+.carousel-content {
+  height: auto;
+}
+
+.carousel-img {
+  height: 500px;
+  width: auto;
+}
+
+/*--shop--*/
+.shop-content {
+  height: auto;
+}
+  
+/*--contactus--*/
+.contact-content {
+  height: auto;
+}
+
+/*--footer--*/
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  display: block;
+}
+
+.footer-content {
+  color: white;
+}
+
+.footer-logo {
+  height: auto;
+  width: 150px;
+}
+
+.footer-division {
+  padding-top: 20px;
+  padding-left: 50px;
+
+}
+/*--other--*/
+.division-header {
+  text-align: center;
+
+}
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.icons {
+  display: inline-block;
+  font-size: 35px;
+  color: #ffC977;
+  vertical-align: middle;
+}
+
+.icons-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}

@@ -1,4 +1,8 @@
-/*--navbar--*/
+body {
+  background-color: #fafafa;
+
+}
+  /*--navbar--*/
 .navbar {
   height: auto;
   width: 100%;
@@ -19,22 +23,86 @@
   padding: 0;
 }
 
-.navbar a {
+.navbar ul a {
+  font-family: 'Nanum Pen Script', cursive;
   text-decoration: none;
+  font-size: 25px;
+  color: #678b99;
+  background-color: none;
 }
 
-.navbar a:link {
-  text-decoration: none;
+.navbar ul li a:hover {
+  text-decoration: underline;
+  background-color: #fbfbfb;
+  cursor: pointer;
 }
 
-.navbar a:hover {
-  text-decoration: none;
+
+/*--banner--*/
+.banner {
+  height: 600px;
+  background-image: url(../images/JumbotronImage1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+  position:relative;
 }
 
+.banner-content {
+  margin-top: 150px;
+}
 
-/*--jumbotron--*/
-.jumbotron {
-  height: 400px;
+.banner-header {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px #000;
+  color: #fbfbfb;
+}
+
+.banner-slogan {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  text-shadow: 2px 2px #000;
+  color: #fbfbfb;
+}
+
+.banner-btn {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 18px;
+  color: #678b99;
+  background-color: #fbfbfb;
+}
+
+/*--aboutus--*/
+.about-content {
+  height: auto;
+}
+
+.about-text {
+  font-family: 'Nunito', sans-serif;
+}
+
+/*--carousel--*/
+.carousel-content {
+  height: auto;
+}
+
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  margin-top: 50px;
+  margin-bottom: -50px;
+  max-height: 800px;
+  max-width: 400px;
+}
+
+/*--shop--*/
+.shop-content {
+  height: auto;
   background-image: url(../images/JumbotronImage.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -43,26 +111,12 @@
   position:relative;
 }
 
-/*--aboutus--*/
-.about-content {
-  height: auto;
+.shop-address {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 10px;
 }
-
-/*--carousel--*/
-.carousel-content {
-  height: auto;
-}
-
-.carousel-img {
-  height: 500px;
-  width: auto;
-}
-
-/*--shop--*/
-.shop-content {
-  height: auto;
-}
-  
 /*--contactus--*/
 .contact-content {
   height: auto;
@@ -73,7 +127,7 @@
   bottom: 0;
   width: 100%;
   height: auto;
-  background-color: #333;
+  background-color: #444;
   display: block;
 }
 
@@ -92,10 +146,19 @@
 
 }
 /*--other--*/
-.division-header {
-  text-align: center;
 
+.division-header {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 72px;
+  color: #678b99;
 }
+
+.sub-header {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+}
+
 .center {
   text-align: center;
 }

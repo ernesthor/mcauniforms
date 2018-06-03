@@ -7,8 +7,8 @@ const mcalogo = '/images/mcalogo.png';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-inverse">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div className="container">
           <div className="navbar-header">
             <a className="navbar-brand" href="/">
               <img src={mcalogo} className="navbar-logo"/>

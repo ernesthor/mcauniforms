@@ -19,8 +19,8 @@ const ShopMap = compose(
   withScriptjs,
   withGoogleMap
 )(props => (
-  <GoogleMap defaultZoom={16} defaultCenter={{ lat: 14.619278, lng: 121.151185 }}>
-    {<Marker position={{ lat: 14.619278, lng: 121.151185 }} />}
+  <GoogleMap defaultZoom={18} defaultCenter={{ lat: 14.6815823, lng: 120.9800024 }}>
+    {<Marker position={{ lat: 14.6815823, lng: 120.9800024 }} />}
   </GoogleMap>
 ));
 

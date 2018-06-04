@@ -74,25 +74,39 @@ body {
   background-color: #fbfbfb;
 }
 
-/*--aboutus--*/
-.about-content {
+/*--pitcher--*/
+.pitcher-content {
   height: auto;
 }
 
-.about-text {
+.pitcher-text {
   font-family: 'Nunito', sans-serif;
 }
 
+.pitcher-uni {
+  background-color: #678b99;
+}
+
+.pitcher-meds {
+  background-color: #a3c686;
+}
+
+.pitcher-acc {
+  background-color: #ffd96b;
+}
+
 /*--carousel--*/
-.carousel-content {
+.product-content {
+  height: 700px;
+}
+
+.product-slider {
   height: auto;
 }
 
-.carousel .thumb img {
-  width: 100% !important;
-  height: 100% !important;
+.product-sample {
+  height: auto;
 }
-
 .carousel .slide img {
   margin-top: 50px;
   margin-bottom: -50px;
@@ -103,7 +117,8 @@ body {
 /*--shop--*/
 .shop-content {
   height: auto;
-  background-image: url(../images/JumbotronImage.jpg);
+  /*background-image: url(../images/JumbotronImage.jpg);*/
+  background-color: #666;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -151,7 +166,7 @@ body {
   font-family: 'Amatic SC', cursive;
   text-align: center;
   font-size: 72px;
-  color: #678b99;
+  color: #555555;
 }
 
 .sub-header {

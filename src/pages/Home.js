@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer.js'
 import Banner from '../components/Banner.js'
-import AboutUs from '../components/AboutUs.js'
-import CarouselImage from '../components/Carousel.js'
+import Pitcher from '../components/Pitcher.js'
+import OurProducts from '../components/OurProducts.js'
 import ShopNow from '../components/ShopNow.js'
 import ContactUs from '../components/ContactUs.js'
 
@@ -14,8 +14,8 @@ class Home extends Component {
       <div>
         <Navbar/>
         <Banner/>
-        <AboutUs/>
-        <CarouselImage/>
+        <Pitcher/>
+        <OurProducts/>
         <ShopNow/>
         <ContactUs/>
         <Footer/>

@@ -10,6 +10,7 @@ class ContactUs extends Component {
         <div className="container contact-content">
           <h1 className="division-header"> Contact Us! </h1>
           <div className="col-md-6 contact-form">
+            <h2 className="sub-header"> Be in touch. Inquire! </h2>
             <ContactForm />
           </div>
           <div className="col-md-6 contact-hours">

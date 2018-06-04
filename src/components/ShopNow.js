@@ -9,13 +9,13 @@ import ShopMap1 from './ShopMap1.js'
 class ShopNow extends Component {
   render() {
     return (
-      <div>
-        <div className="shop-content shop-fluid">
+      <div className="container-fluid">
+        <div className="shop-content shop-content-fluid">
           <h1 className="division-header"> Shop Now </h1>
-            <div className="row row-container">
+            <div className="row">
               <div className="col-md-6 shop-text">
                 <h2 className="sub-header"> Online Store </h2>
-                <p className="">There are a lot of items available on our shop. Visit it now!</p>
+                <p className="shop-text">There are a lot of items available on our shop. Visit it now!</p>
                 <button type="button" className="btn left"><Ionicon icon="md-cart" fontSize="20px" className="icons"/>&nbsp;Go to store</button>
               </div>
               <div className="col-md-6 shop-map">

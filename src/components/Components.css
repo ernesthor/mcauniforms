@@ -40,7 +40,7 @@ body {
 
 /*--banner--*/
 .banner {
-  height: 600px;
+  height: auto;
   background-image: url(../images/JumbotronImage1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -50,28 +50,41 @@ body {
 }
 
 .banner-content {
-  margin-top: 150px;
+  margin-top: 175px;
 }
 
 .banner-header {
   font-family: 'Shadows Into Light', cursive;
   font-size: 100px;
-  text-shadow: 2px 2px #000;
-  color: #fbfbfb;
+  text-shadow: 2px 2px #111;
+  color: #fafafa;
 }
 
 .banner-slogan {
   font-family: 'Permanent Marker', cursive;
   font-size: 25px;
-  text-shadow: 2px 2px #000;
-  color: #fbfbfb;
+  text-shadow: 2px 2px #111;
+  color: #fafafa;
 }
 
 .banner-btn {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 175px;
   color: #678b99;
-  background-color: #fbfbfb;
+  background-color: #fafafa;
+  box-shadow: 5px 10px 30px #111;
+}
+
+.banner-btn:hover {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 18px;
+  margin-bottom: 175px;
+  color: #678b99;
+  background-color: #fafafa;
+  border: 1px solid #111;
+  box-shadow: 5px 10px 15px #111;
 }
 
 /*--pitcher--*/
@@ -81,32 +94,124 @@ body {
 
 .pitcher-text {
   font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: #111;
+}
+
+.pitcher-header {
+  font-weight: 500;
+  font-size: 40px;
+  color: #111;
 }
 
 .pitcher-uni {
   background-color: #678b99;
+  width: 100%;
+  margin-left: 29px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .pitcher-meds {
   background-color: #a3c686;
+  width: 100%;
+  margin-left: 29px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .pitcher-acc {
   background-color: #ffd96b;
+  width: 100%;
+  margin-left: 29px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
-/*--carousel--*/
+.pitcher-img {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uni-header-cont {
+  box-shadow: 0 -5px 5px -5px #333;
+  border-left: 2px solid #678b99;
+  border-right: 2px solid #678b99;
+  border-bottom: 2px solid #678b99;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.5s;
+}
+
+.uni-header-cont:hover {
+  background-color: #678b99;
+  box-shadow: 0 -5px 5px -5px #333;;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.5s;
+}
+
+.meds-header-cont {
+  box-shadow: 0 -5px 5px -5px #333;
+  border-left: 2px solid #a3c686;
+  border-right: 2px solid #a3c686;
+  border-bottom: 2px solid #a3c686;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.5s;
+}
+
+.meds-header-cont:hover {
+  background-color: #a3c686;
+  box-shadow: 0 -5px 5px -5px #333;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.5s;
+}
+
+.acc-header-cont {
+  box-shadow: 0 -5px 5px -5px #333;
+  border-left: 2px solid #ffd96b;
+  border-right: 2px solid #ffd96b;
+  border-bottom: 2px solid #ffd96b;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.5s;
+}
+
+.acc-header-cont:hover {
+  background-color: #ffd96b;
+  box-shadow: 0 -5px 5px -5px #333;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.5s;
+}
+
+/*--products--*/
 .product-content {
-  height: 700px;
+  height: 725px;
 }
 
 .product-slider {
+  padding-top: 20px;
+}
+
+.product-display {
   height: auto;
 }
 
-.product-sample {
-  height: auto;
-}
 .carousel .slide img {
   margin-top: 50px;
   margin-bottom: -50px;
@@ -114,29 +219,145 @@ body {
   max-width: 400px;
 }
 
+.product-catalog {
+  margin-top: 20px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border: 1px solid #000;
+  padding-bottom: 20px;
+}
+
+.product-img {
+  width: auto;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.product-desc {
+  color: #111;
+  font-family: 'Nunito', sans-serif;
+}
+
+.product-price{
+  color: #111;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 20px;
+}
+
+.product-btn {
+  background-color: #678b99;
+  color: #fafafa;
+  border: 0;
+  font-size: 20px;
+  font-family: 'Nanum Pen Script', cursive;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px #111;
+  float: right;
+  margin-right: 10px;
+
+}
+
+.product-btn:hover {
+  background-color: #678b99;
+  color: #fafafa;
+  border: 0;
+  font-size: 20px;
+  font-family: 'Nanum Pen Script', cursive;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px #111;
+
+}
+
+
 /*--shop--*/
-.shop-content {
-  height: auto;
-  /*background-image: url(../images/JumbotronImage.jpg);*/
-  background-color: #666;
+.shop-background {
+  background-image: url(../images/JumbotronImage5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  color: white;
-  position:relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position:fixed;
+  z-index: -1;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
+
+.shop-content {
+  color: white;
+  height: auto;
+  z-index: 2;
+}
+
+.shop-upper {
+  margin-left: 100px;
+
+}
+
+.shop-header {
+  font-weight: 700;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #111;
+}
+
+.shop-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #111;
+}
+
+.shop-time {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px #111;
+}
+
 
 .shop-address {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
   text-align: center;
   padding-bottom: 10px;
+  text-shadow: 1px 1px 1px #111;
+}
+
+.shop-btn {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 15px;
+  color: #678b99;
+  background-color: #fafafa;
+  box-shadow: 5px 10px 30px #111;
+}
+
+.shop-btn:hover {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 15px;
+  color: #678b99;
+  background-color: #fafafa;
+  border: 1px solid #111;
+  box-shadow: 5px 10px 15px #111;
+}
+
+.row-maps {
+  padding-bottom: 20px;
 }
 /*--contactus--*/
 .contact-content {
   height: auto;
 }
 
+.contact-btn {
+  float: right;
+}
+
+.contact-btn:hover {
+  cursor: pointer;
+}
 /*--footer--*/
 .footer {
   bottom: 0;
@@ -166,11 +387,17 @@ body {
   font-family: 'Amatic SC', cursive;
   text-align: center;
   font-size: 72px;
-  color: #555555;
+  font-weight: 600;
+  color: #e2e2e2;
+  text-shadow:
+   -1px -1px 0 #555,
+    1px -1px 0 #555,
+    -1px 1px 0 #555,
+     1px 1px 0 #555;
 }
 
 .sub-header {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   font-size: 40px;
 }
 
@@ -208,4 +435,18 @@ a {
 
 a:link {
   text-decoration: none;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.white {
+  color: #fafafa;
 }

@@ -52,7 +52,7 @@ return (
 							className="form-control" validate={required}/>
 						</div>
 						<div className="col-md-6">
-							<button type="submit" disabled={pristine || submitting} color="light" className="contact-btn btn-lg float-left"> Submit </button>
+							<button type="submit" disabled={pristine || submitting} color="light" className="contact-btn btn-lg"> Submit </button>
 						</div>
 					</div>
 			</form>

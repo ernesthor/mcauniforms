@@ -8,18 +8,21 @@ import {
   Marker
 } from "react-google-maps";
 
+const silverMapStyle = require("./silverMapStyle.json");
+
 const ShopMap = compose(
   withProps({
     googleMapURL:
       "https://maps.googleapis.com/maps/api/js?key=AIzaSyC8alGkid4ElCTXhdhKCblTTMg7HLb2xm4&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `400px` }} />,
+    containerElement: <div style={{ height: `350px` }} />,
     mapElement: <div style={{ height: `100%` }} />
   }),
   withScriptjs,
   withGoogleMap
 )(props => (
-  <GoogleMap defaultZoom={18} defaultCenter={{ lat: 14.6774536, lng: 120.9807591 }}>
+  <GoogleMap defaultZoom={18} defaultCenter={{ lat: 14.6774536, lng: 120.9807591 }}
+      defaultOptions={{ styles: silverMapStyle }} >
     {<Marker position={{ lat: 14.6774536, lng: 120.9807591 }} />}
   </GoogleMap>
 ));

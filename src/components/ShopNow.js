@@ -10,36 +10,40 @@ class ShopNow extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="shop-content shop-content-fluid">
-          <h1 className="division-header"> Shop Now </h1>
+        <h1 className="division-header"> Shop Now </h1>
+        <div className="shop-background"></div>
+        <div className="shop-content">
             <div className="row">
-              <div className="col-md-6 shop-text">
-                <h2 className="sub-header"> Online Store </h2>
-                <p className="shop-text">There are a lot of items available on our shop. Visit it now!</p>
-                <button type="button" className="btn left"><Ionicon icon="md-cart" fontSize="20px" className="icons"/>&nbsp;Go to store</button>
+              <div className="col-md-6">
+                <h2 className="shop-header shop-upper"> Online Store </h2>
+                <p className="shop-text shop-upper">There are a lot of items available on our shop. Visit it now!</p>
+                <button type="button" className="shop-btn btn left shop-upper"><Ionicon icon="md-cart" fontSize="15px" color="#678b99" className="icons"/>&nbsp;Go to store</button>
               </div>
-              <div className="col-md-6 shop-map">
-              <h2 className="sub-header"> Store Hours </h2>
-                <h4>Monday-Friday: 9:00 A.M. - 6:00 P.M.</h4>
-                <h4>Saturday: 10:00 A.M. - 4:00 P.M.</h4>
-                <h4>Sunday: Closed</h4>
+              <div className="col-md-6">
+              <h2 className="shop-header  shop-upper"> Store Hours </h2>
+                <h4 className="shop-upper shop-text inline">Monday-Friday: </h4>
+                <h4 className="shop-time inline"> 9:00 A.M. - 6:00 P.M.</h4> <br/><br/>
+                <h4 className="shop-upper shop-text inline">Saturday: </h4>
+                <h4 className="shop-time inline"> 10:00 A.M. - 4:00 P.M.</h4> <br/><br/>
+                <h4 className="shop-upper shop-text inline">Sunday: </h4>
+                <h4 className="shop-time inline"> Closed </h4> <br/>
               </div>
             </div>
-            <div className="row">
-              <h2 className="sub-header center"> Visit Our Locations </h2>
+            <div className="row row-maps">
+              <h2 className="shop-header center"> Visit Our Locations </h2>
               <div className="col-md-4 shop-map">
-                <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" className="icons"/> Hollywood Terraces, K23 Sumulong Hwy, Sta. Cruz, Antipolo, 1870 Rizal </h4>
+                <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#678b99" className="icons"/> Hollywood Terraces, K23 Sumulong Hwy, Sta. Cruz, Antipolo, 1870 Rizal </h4>
                 <ShopMap/>
               </div>
               <div className="col-md-4 shop-map">
-                <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" className="icons"/> Shop Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#a3c686" className="icons"/> Valenzuela Store 1, Fatima Main Near KFC , Valenzuela, 1440 NCR </h4>
                 <ShopMap0/>
               </div>
               <div className="col-md-4 shop-map">
-                <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" className="icons"/> Shop Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
+                <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#ffd96b" className="icons"/> Valenzuela Store 2, Fatima Dambana , Valenzuela, 1440 NCR </h4>
                 <ShopMap1/>
               </div>
-            </div>
+          </div>
         </div>
       </div>
     );

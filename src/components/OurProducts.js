@@ -22,6 +22,7 @@ class OurProducts extends Component {
       <div>
         <div className="product-content">
           <h1 className="division-header">Products</h1>
+          <hr className="hr-header" width="15%"/>
           <div className="col-md-6 product-slider">
             <Carousel autoPlay={true}  showThumbs={false} showStatus={false} transitionTime={1000} infiniteLoop={true}>
               <div>

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Components.css'
 
-const pitchersample = '/images/pitchersample.png';
+const pitcheruni = '/images/pitcher-uni.png';
+const pitchermeds = '/images/pitcher-meds.png';
+const pitcheracc = '/images/pitcher-acc.png';
 
 class Pitcher extends Component {
   render() {
@@ -10,10 +12,11 @@ class Pitcher extends Component {
         <div className="container">
           <div className="pitcher-content">
           <h1 className="division-header"> Grab your school needs </h1>
+          <hr className="hr-header" width="15%"/>
             <div className="col-md-4">
               <div className="row pitcher-uni">
-                <img src={pitchersample} className="pitcher-img"/>
-                <p className="pitcher-text center"> From Type A to NSTP Uniform </p>
+                <img src={pitcheruni} className="pitcher-img"/>
+                <p className="pitcher-text center"> Complete School Attire? </p>
               </div>
               <div className="row uni-header-cont">
               <h2 className="pitcher-header sub-header center"> School Uniforms </h2>
@@ -21,8 +24,8 @@ class Pitcher extends Component {
             </div>
             <div className="col-md-4">
               <div className="row pitcher-meds">
-                <img src={pitchersample} className="pitcher-img"/>
-                <p className="pitcher-text center"> Laboratory needs? </p>
+                <img src={pitchermeds} className="pitcher-img"/>
+                <p className="pitcher-text center"> Laboratory Needs? </p>
               </div>
               <div className="row meds-header-cont">
                 <h2 className="pitcher-header sub-header center"> Medical Supplies </h2>
@@ -30,8 +33,8 @@ class Pitcher extends Component {
             </div>
             <div className="col-md-4">
               <div className="row pitcher-acc">
-                <img src={pitchersample} className="pitcher-img"/>
-                <p className="pitcher-text center"> Other school needs? </p>
+                <img src={pitcheracc} className="pitcher-img"/>
+                <p className="pitcher-text center"> Other School Needs? </p>
               </div>
               <div className="row acc-header-cont">
                 <h2 className="pitcher-header sub-header center"> Accesories </h2>

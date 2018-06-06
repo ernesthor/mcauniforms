@@ -72,7 +72,7 @@ body {
   font-size: 18px;
   margin-top: 15px;
   margin-bottom: 175px;
-  color: #678b99;
+  color: #111;
   background-color: #fafafa;
   box-shadow: 5px 10px 30px #111;
 }
@@ -81,7 +81,7 @@ body {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 18px;
   margin-bottom: 175px;
-  color: #678b99;
+  color: #111;
   background-color: #fafafa;
   border: 1px solid #111;
   box-shadow: 5px 10px 15px #111;
@@ -93,7 +93,7 @@ body {
 }
 
 .pitcher-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Semibold', sans-serif;
   font-size: 15px;
   color: #111;
 }
@@ -132,9 +132,11 @@ body {
 }
 
 .pitcher-img {
-  width: 250px;
-  height: auto;
+  width: 150px;
+  height: 150px;
   display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -206,10 +208,14 @@ body {
 
 .product-slider {
   padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .product-display {
   height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .carousel .slide img {
@@ -221,8 +227,8 @@ body {
 
 .product-catalog {
   margin-top: 20px;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  border: 1px solid #000;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  border: 1px dashed #000;
   padding-bottom: 20px;
 }
 
@@ -273,29 +279,19 @@ body {
 
 /*--shop--*/
 .shop-background {
-  background-image: url(../images/JumbotronImage5.jpg);
+  background-image: url(../images/JumbotronImage2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position:fixed;
-  z-index: -1;
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
 }
 
 .shop-content {
   color: white;
-  height: auto;
-  z-index: 2;
+  position: relative;
 }
 
 .shop-upper {
   margin-left: 100px;
-
 }
 
 .shop-header {
@@ -329,7 +325,7 @@ body {
 .shop-btn {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 15px;
-  color: #678b99;
+  color: #111;
   background-color: #fafafa;
   box-shadow: 5px 10px 30px #111;
 }
@@ -337,7 +333,7 @@ body {
 .shop-btn:hover {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 15px;
-  color: #678b99;
+  color: #111;
   background-color: #fafafa;
   border: 1px solid #111;
   box-shadow: 5px 10px 15px #111;
@@ -346,18 +342,134 @@ body {
 .row-maps {
   padding-bottom: 20px;
 }
+
+.shop-map {
+  margin: 0 auto;
+  width: 70%;
+}
+
 /*--contactus--*/
+
 .contact-content {
   height: auto;
 }
 
+.form-btn {
+  padding: 0;
+}
+
+.form-captcha {
+  padding: 0;
+}
+
 .contact-btn {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #fafafa;
   float: right;
+  box-shadow: 1px 5px 10px #111;
+  -webkit-box-shadow: 1px 5px 10px #111;
 }
 
 .contact-btn:hover {
+  border-radius: 5px;
+  border: 0;
+  background-color: #fafafa;
   cursor: pointer;
+  box-shadow: 1px 5px 30px #111;
+  -webkit-box-shadow: 1px 5px 30px #111;
 }
+
+.form-error {
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: 'Nunito', serif;
+  color: red;
+}
+/*--form-design--*/
+
+.form-control {
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px #111;
+  -webkit-box-shadow: 1px 5px 10px #111;
+}
+
+.form-control:focus {
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 1px 5px 30px #111;
+  -webkit-box-shadow: 1px 5px 30px #111;
+}
+
+input[type=text] {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  padding: 7px;
+}
+
+input[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+input[type=text]:focus:-moz-placeholder { color:transparent; }
+
+input[type=text]:focus::-moz-placeholder { color:transparent; }
+
+input[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+textarea[type=text]{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  padding: 7px;
+}
+
+textarea[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+textarea[type=text]:focus:-moz-placeholder { color:transparent; }
+
+textarea[type=text]:focus::-moz-placeholder { color:transparent; }
+
+textarea[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+input[type=text]::placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+}
+
+input[type=text]:-ms-input-placeholder {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  color: #111;
+}
+
+input[type=text]::-ms-input-placeholder {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  color: #111;
+}
+
+textarea[type=text]::placeholder {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+    color: #111;
+}
+
+textarea[type=text]:-ms-input-placeholder {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  color: #111;
+}
+
+textarea[type=text]::-ms-input-placeholder {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  color: #111;
+}
+
 /*--footer--*/
 .footer {
   bottom: 0;
@@ -368,9 +480,24 @@ body {
 }
 
 .footer-content {
-  color: white;
+  color: #fafafa;
 }
 
+
+.footer-content h2 {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 40px;
+}
+
+.footer-content h4 {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+}
+
+.footer-content h5 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
 .footer-logo {
   height: auto;
   width: 150px;
@@ -381,19 +508,36 @@ body {
   padding-left: 50px;
 
 }
+
+.footer-copy {
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+}
 /*--other--*/
 
 .division-header {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Nanum Pen Script', cursive;
   text-align: center;
   font-size: 72px;
-  font-weight: 600;
-  color: #e2e2e2;
+  font-weight: 500;
+  color: #fafafa;
   text-shadow:
-   -1px -1px 0 #555,
-    1px -1px 0 #555,
-    -1px 1px 0 #555,
-     1px 1px 0 #555;
+   -1px -1px 0 #111,
+    1px -1px 0 #111,
+    -1px 1px 0 #111,
+     1px 1px 0 #111;
+  margin-bottom: 0;
+}
+
+.hr-header {
+  background-color: #fafafa;
+  height: 2px;
+  display: block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: inset;
+  border-width: 1px;
 }
 
 .sub-header {
@@ -449,4 +593,16 @@ a:link {
 
 .white {
   color: #fafafa;
+}
+
+.blue {
+  color: #678b99;
+}
+
+.green {
+  color: #a3c686;
+}
+
+.yellow {
+  color: #ffd96b;
 }

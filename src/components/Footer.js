@@ -13,11 +13,14 @@ class Footer extends Component {
           <div className="row">
             <div className="col-md-4 footer-division">
               <img src={mca} className="footer-logo"/><br/>
-              <h4 className="inline"><Ionicon icon="ios-pin" fontSize="35px" className="icons"/>Address:</h4> <br/>
-              <h5 className="inline">&nbsp;<strong>Antipolo Branch</strong>: Hollywood Terraces, K23 Sumulong Hwy, Sta. Cruz, Antipolo, 1870 Rizal</h5><br/>
-              <h5 className="inline">&nbsp;<strong>Valenzuela Fatima Main</strong>:  Address Line </h5><br/>
-              <h5 className="inline">&nbsp;<strong>Valenzuela Fatima Dambana</strong>: Address Line </h5><br/>
-              <h4 className="inline"><Ionicon icon="ios-phone-portrait" fontSize="35px" className="icons"/>Contact No.:</h4>
+              <h4 className="inline"><Ionicon icon="ios-pin" fontSize="35px" color="#fafafa" className="icons"/>Address:</h4> <br/>
+              <ul>
+                <li><h5 className="inline">&nbsp;<strong>Antipolo Branch</strong>: Hollywood Terraces, K23 Sumulong Hwy, Sta. Cruz, Antipolo, 1870 Rizal</h5><br/></li>
+                <li><h5 className="inline">&nbsp;<strong>Valenzuela Fatima Main</strong>:  Valenzuela Store 1, Fatima Main Near KFC , Valenzuela, 1440 NCR </h5><br/></li>
+                <li><h5 className="inline">&nbsp;<strong>Valenzuela Fatima Dambana</strong>: Valenzuela Store 2, Fatima Dambana , Valenzuela, 1440 NCR </h5><br/></li>
+              </ul>
+
+              <h4 className="inline"><Ionicon icon="ios-phone-portrait" color="#fafafa" fontSize="35px" className="icons"/>Contact No.:</h4>
               <h5 className="inline">&nbsp;0947 406 6554</h5>
             </div>
             <div className="col-md-4 footer-division">
@@ -28,16 +31,16 @@ class Footer extends Component {
             </div>
             <div className="col-md-4 footer-division">
               <h2>Follow Us</h2>
-              <a href="https://www.facebook.com/MCAOfficialStore/"><Ionicon icon="logo-facebook" fontSize="35px" className="icons"/></a><h5 className="icons-text">&nbsp;Facebook</h5>
+              <a href="https://www.facebook.com/MCAOfficialStore/"><Ionicon icon="logo-facebook" color="#fafafa" fontSize="35px" className="icons"/></a><h5 className="icons-text">&nbsp;Facebook</h5>
             </div>
           </div>
           <div className="row">
             <span><hr/></span>
               <div className="col-md-6 center">
-                <span className="text-muted">MCA Uniforms &#169; {new Date().getFullYear()}&nbsp;&nbsp;&nbsp;</span>
+                <span className="footer-copy">MCA Uniforms &#169; {new Date().getFullYear()}&nbsp;&nbsp;&nbsp;</span>
               </div>
               <div className="col-md-6 center">
-                <span className="text-muted">Designed by: <strong> ThorTechTips </strong> </span>
+                <span className="footer-copy">Designed by: <strong> ThorTechTips </strong> </span>
               </div>
           </div>
         </div>

@@ -21,7 +21,8 @@ const renderField = ({
 }) => (
     <div>
       <input {...input} placeholder={label} type={type} className="form-control"/>
-      {touched && ((error && <span className="mt-2 contact-gray">{error}</span>) || (warning && <span className="mt-2 contact-gray">{warning}</span>))}
+      {touched && ((error && <p className="form-error">{error}</p>) ||
+			(warning && <p className="form-error">{warning}</p>))}
     </div>
 )
 
@@ -51,8 +52,8 @@ return (
 							<Field name="recaptcha" component={myCaptcha}
 							className="form-control" validate={required}/>
 						</div>
-						<div className="col-md-6">
-							<button type="submit" disabled={pristine || submitting} color="light" className="contact-btn btn-lg"> Submit </button>
+						<div className="col-md-6 form-btn">
+							<button type="submit" disabled={pristine || submitting} className="contact-btn btn-lg"> Submit </button>
 						</div>
 					</div>
 			</form>

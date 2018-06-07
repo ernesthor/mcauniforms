@@ -37,11 +37,17 @@ body {
   cursor: pointer;
 }
 
+.navbar-toggle {
+  margin: 0;
+  padding: 3px;
+  border: 1px solid #678b99;
+  box-shadow: 1px 1px 1px #111;
+}
 
 /*--banner--*/
 .banner {
   height: auto;
-  background-image: url(../images/JumbotronImage1.jpg);
+  background-image: url(../images/JumbotronImage1.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -203,33 +209,31 @@ body {
 
 /*--products--*/
 .product-content {
-  height: 725px;
+  height: auto;
 }
 
 .product-slider {
   padding-top: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
+  border-right: 1px dashed #000;
 }
 
 .product-display {
-  height: auto;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .carousel .slide img {
-  margin-top: 50px;
-  margin-bottom: -50px;
-  max-height: 800px;
-  max-width: 400px;
+  max-height: auto;
+  max-width: auto;
 }
 
 .product-catalog {
   margin-top: 20px;
   box-shadow: 5px 5px 5px #aaaaaa;
-  border: 1px dashed #000;
+  border-top: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
   padding-bottom: 20px;
+  background-color: #f5f5f5;
 }
 
 .product-img {
@@ -279,7 +283,7 @@ body {
 
 /*--shop--*/
 .shop-background {
-  background-image: url(../images/JumbotronImage2.jpg);
+  background-image: url(../images/JumbotronImage2.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -292,6 +296,10 @@ body {
 
 .shop-upper {
   margin-left: 100px;
+}
+
+.shop-lower {
+  margin: 0;
 }
 
 .shop-header {
@@ -340,18 +348,34 @@ body {
 }
 
 .row-maps {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .shop-map {
-  margin: 0 auto;
+  margin: auto;
   width: 70%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.shop-map:hover {
+  margin: auto;
+  width: 70%;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: 0.5s;
 }
 
 /*--contactus--*/
 
 .contact-content {
   height: auto;
+  padding-bottom: 20px;
+}
+
+.contact-form {
+  border-right: 1px dashed black;
 }
 
 .form-btn {
@@ -605,4 +629,8 @@ a:link {
 
 .yellow {
   color: #ffd96b;
+}
+
+.header-margin {
+  margin-top: 50px;
 }

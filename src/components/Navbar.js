@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Ionicon from 'react-ionicons'
+
 import './Components.css'
 
 const mcalogo = '/images/mcalogo.png';
@@ -15,9 +17,7 @@ class Navbar extends Component {
             </a>
             <button className="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarContent"
             aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
+              <Ionicon icon="md-menu" fontSize="35px" color="#678b99" className="icons"/>
             </button>
           </div>
           <div className="collapse navbar-collapse" id="navbarContent">

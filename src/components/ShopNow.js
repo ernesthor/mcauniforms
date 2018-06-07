@@ -16,12 +16,12 @@ class ShopNow extends Component {
           <div className="shop-content">
             <div className="row">
               <div className="col-md-6">
-                <h2 className="shop-header shop-upper"><span className="blue">*</span> Online Store <span className="blue">*</span> </h2>
+                <h2 className="shop-header shop-upper header-margin"><span className="blue">*</span> Online Store <span className="blue">*</span> </h2>
                 <p className="shop-text shop-upper">There are a lot of items available on our shop. Visit it now!</p>
                 <button type="button" className="shop-btn btn left shop-upper"><Ionicon icon="md-cart" fontSize="15px" color="#111" className="icons"/>&nbsp;Go to store</button>
               </div>
               <div className="col-md-6">
-              <h2 className="shop-header  shop-upper"> <span className="green">*</span> Store Hours <span className="green">*</span> </h2>
+              <h2 className="shop-header shop-upper header-margin"> <span className="green">*</span> Store Hours <span className="green">*</span> </h2>
                 <h4 className="shop-upper shop-text inline">Monday-Friday: </h4>
                 <h4 className="shop-time inline"> 9:00 A.M. - 6:00 P.M.</h4> <br/><br/>
                 <h4 className="shop-upper shop-text inline">Saturday: </h4>
@@ -31,7 +31,7 @@ class ShopNow extends Component {
               </div>
             </div>
             <div className="row row-maps">
-              <h2 className="shop-header center"> <span className="yellow">*</span> Visit Our Locations <span className="yellow">*</span></h2>
+              <h2 className="shop-header shop-lower center"> <span className="yellow">*</span> Visit Our Locations <span className="yellow">*</span></h2>
               <div className="col-md-4">
                 <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#678b99" className="icons"/> Hollywood Terraces, K23 Sumulong Hwy, Sta. Cruz, Antipolo, 1870 Rizal </h4>
                 <div className="shop-map"><ShopMap/></div>

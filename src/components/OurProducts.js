@@ -22,7 +22,7 @@ class OurProducts extends Component {
         <div className="product-content container-fluid">
           <h1 className="division-header">Products</h1>
           <hr className="hr-header" width="15%"/>
-          <div className="col-md-5 product-slider">
+          <div className="col-sm-6 col-md-5 col-lg-5 col-xl-5 product-slider">
             <Carousel autoPlay={true}  showThumbs={false} showStatus={false} transitionTime={1000} interval={5000} infiniteLoop={true}>
               <div>
                 <img src={ProductAvailable}/>
@@ -38,10 +38,10 @@ class OurProducts extends Component {
               </div>
             </Carousel>
           </div>
-          <div className="col-md-7 product-display">
+          <div className="col-sm-6 col-md-7 col-lg-7 col-xl-7 product-display">
             <p className="sub-header center"> Best quality. Best price </p>
               <div className="row">
-                <div className="col-md-6 product-container">
+                <div className="col-xs-6 col-sm-6 col-md-6 product-container">
                   <div className="product-catalog">
                     <div className="product-imgcont">
                       <img src={polo1} className="product-img"/>
@@ -51,7 +51,7 @@ class OurProducts extends Component {
                     <button className="product-btn inline"> Add to Cart </button>
                   </div>
                 </div>
-                <div className="col-md-6 product-container">
+                <div className="col-xs-6 col-sm-6 col-md-6 product-container">
                 <div className="product-catalog">
                   <div className="product-imgcont">
                     <img src={pants1} className="product-img"/>
@@ -63,7 +63,7 @@ class OurProducts extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-6 product-container">
+                <div className="col-xs-6 col-sm-6 col-md-6 product-container">
                 <div className="product-catalog">
                   <div className="product-imgcont">
                     <img src={polo2} className="product-img"/>
@@ -73,7 +73,7 @@ class OurProducts extends Component {
                   <button className="product-btn inline"> Add to Cart </button>
                 </div>
                 </div>
-                <div className="col-md-6 product-container">
+                <div className="col-xs-6 col-sm-6 col-md-6 product-container">
                 <div className="product-catalog">
                   <div className="product-imgcont">
                     <img src={pants2} className="product-img"/>

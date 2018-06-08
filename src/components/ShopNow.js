@@ -32,15 +32,15 @@ class ShopNow extends Component {
             </div>
             <div className="row row-maps">
               <h2 className="shop-header shop-lower center"> <span className="yellow">*</span> Visit Our Locations <span className="yellow">*</span></h2>
-              <div className="col-md-4">
+              <div className="col-md-4 shop-mapdiv">
                 <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#678b99" className="icons"/> Hollywood Terraces, K23 Sumulong Hwy, Sta. Cruz, Antipolo, 1870 Rizal </h4>
                 <div className="shop-map"><ShopMap/></div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 shop-mapdiv">
                 <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#a3c686" className="icons"/> Valenzuela Store 1, Fatima Main Near KFC , Valenzuela, 1440 NCR </h4>
                 <div className="shop-map"><ShopMap0/></div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 shop-mapdiv">
                 <h4 className="shop-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#ffd96b" className="icons"/> Valenzuela Store 2, Fatima Dambana , Valenzuela, 1440 NCR </h4>
                 <div className="shop-map"><ShopMap1/></div>
               </div>

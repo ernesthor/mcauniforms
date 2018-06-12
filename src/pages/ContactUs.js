@@ -9,10 +9,12 @@ import './Pages.css'
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className="pages-container">
         <Navbar/>
-        <ContactUs/>
-        <Footer/>
+        <div className="pages-content">
+          <ContactUs/>
+        </div>
+          <Footer/>
       </div>
     );
   }

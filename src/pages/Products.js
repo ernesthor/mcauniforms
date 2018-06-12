@@ -10,11 +10,13 @@ import './Pages.css'
 class Products extends Component {
   render() {
     return (
-      <div>
+      <div className="pages-container">
         <Navbar/>
-        <OurProducts/>
-        <ShopNow/>
-        <Footer/>
+        <div className="pages-content">
+          <OurProducts/>
+          <ShopNow/>
+        </div>
+          <Footer/>
       </div>
     );
   }

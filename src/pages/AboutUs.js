@@ -6,13 +6,16 @@ import Pitcher from '../components/Pitcher.js'
 import ShopNow from '../components/ShopNow.js'
 
 import './Pages.css'
+
 class AboutUs extends Component {
   render() {
     return (
-      <div>
+      <div className="pages-container">
         <Navbar/>
-        <Pitcher/>
-        <Footer/>
+        <div className="pages-content">
+          <Pitcher/>
+        </div>
+          <Footer/>
       </div>
     );
   }

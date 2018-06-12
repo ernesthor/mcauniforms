@@ -12,14 +12,16 @@ import './Pages.css'
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="pages-container">
         <Navbar/>
-        <Banner/>
-        <Pitcher/>
-        <OurProducts/>
-        <ShopNow/>
-        <ContactUs/>
-        <Footer/>
+        <div className="pages-content">
+          <Banner/>
+          <Pitcher/>
+          <OurProducts/>
+          <ShopNow/>
+          <ContactUs/>
+        </div>
+          <Footer/>
       </div>
     );
   }

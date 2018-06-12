@@ -10,7 +10,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
-        <div className="container-fluid">
+        <div className="container">
           <div className="navbar-header">
             <a className="navbar-brand" href="/">
               <img src={mcalogo} className="navbar-logo"/>

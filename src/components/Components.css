@@ -3,8 +3,13 @@ html {
 }
 
 body {
+  height: 100%;
   background-color: #fafafa;
+}
 
+.container-fluid {
+  width: 100%;
+  padding: 0;
 }
 
   /*--navbar--*/
@@ -1556,6 +1561,7 @@ body {
     height: auto;
     background-color: #444;
     display: block;
+    flex-shrink: 0;
   }
 
   .footer-division {
@@ -1606,6 +1612,7 @@ body {
     height: auto;
     background-color: #444;
     display: block;
+    flex-shrink: 0;
   }
 
   .footer-division {
@@ -1657,6 +1664,7 @@ body {
     height: auto;
     background-color: #444;
     display: block;
+    flex-shrink: 0;
   }
 
   .footer-division {
@@ -1733,66 +1741,6 @@ body {
     font-size: 24px;
   }
 
-  .center {
-    text-align: center;
-  }
-
-  .left {
-    text-align: left;
-  }
-
-  .right {
-    text-align: right;
-  }
-
-  .icons {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .icons-text {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .inline {
-    display: inline;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  a:link {
-    text-decoration: none;
-  }
-
-  .container-fluid {
-    width: 100%;
-    padding: 0;
-  }
-
-  .row {
-      margin-left: 0;
-      margin-right: 0;
-  }
-
-  .white {
-    color: #fafafa;
-  }
-
-  .blue {
-    color: #678b99;
-  }
-
-  .green {
-    color: #a3c686;
-  }
-
-  .yellow {
-    color: #ffd96b;
-  }
-
   .header-margin {
     margin-top: 50px;
   }
@@ -1827,66 +1775,6 @@ body {
   .sub-header {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 30px;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  .left {
-    text-align: left;
-  }
-
-  .right {
-    text-align: right;
-  }
-
-  .icons {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .icons-text {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .inline {
-    display: inline;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  a:link {
-    text-decoration: none;
-  }
-
-  .container-fluid {
-    width: 100%;
-    padding: 0;
-  }
-
-  .row {
-      margin-left: 0;
-      margin-right: 0;
-  }
-
-  .white {
-    color: #fafafa;
-  }
-
-  .blue {
-    color: #678b99;
-  }
-
-  .green {
-    color: #a3c686;
-  }
-
-  .yellow {
-    color: #ffd96b;
   }
 
   .header-margin {
@@ -1925,67 +1813,64 @@ body {
     font-size: 50px;
   }
 
-  .center {
-    text-align: center;
-  }
-
-  .left {
-    text-align: left;
-  }
-
-  .right {
-    text-align: right;
-  }
-
-  .icons {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .icons-text {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .inline {
-    display: inline;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  a:link {
-    text-decoration: none;
-  }
-
-  .container-fluid {
-    width: 100%;
-    padding: 0;
-  }
-
-  .row {
-      margin-left: 0;
-      margin-right: 0;
-  }
-
-  .white {
-    color: #fafafa;
-  }
-
-  .blue {
-    color: #678b99;
-  }
-
-  .green {
-    color: #a3c686;
-  }
-
-  .yellow {
-    color: #ffd96b;
-  }
-
   .header-margin {
     margin-top: 50px;
   }
+}
+
+/*--global-var--*/
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icons-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.white {
+  color: #fafafa;
+}
+
+.blue {
+  color: #678b99;
+}
+
+.green {
+  color: #a3c686;
+}
+
+.yellow {
+  color: #ffd96b;
 }

@@ -8,12 +8,17 @@ import './Pages.css'
 class E404 extends Component {
   render() {
     return (
-      <div>
+      <div className="pages-container">
         <Navbar/>
-          <div>
-            Error404: Go Back to <a href="/">MCA Uniforms</a>
+        <div className="pages-content">
+          <div className="container">
+            <h1>Error404:</h1>
+            <h3>Page not Found!</h3>
+            <h5>The page is maybe under construction or doesn&#39;t exist </h5>
+            <p>Go Back to <a href="/">MCA Uniforms</a></p>
           </div>
-        <Footer/>
+        </div>
+          <Footer/>
       </div>
     );
   }

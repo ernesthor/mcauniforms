@@ -10,7 +10,7 @@ class Banner extends Component {
           <div className="container">
             <h1 className="banner-header banner-content">MCA Uniforms</h1>
             <p className="banner-slogan">One-stop shop for your school supplies!</p>
-            <button type="button" className="btn left banner-btn"><Ionicon icon="md-cart" fontSize="15px" color="#111" className="icons"/>&nbsp;Go to store</button>
+            <a href="/products" className="btn left banner-btn"><Ionicon icon="ios-basket" fontSize="20px" color="#111" className="icons"/>&nbsp;Go to store</a>
           </div>
         </div>
       </div>

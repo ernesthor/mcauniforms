@@ -18,7 +18,7 @@ class ShopNow extends Component {
               <div className="col-md-6">
                 <h2 className="shop-header shop-upper header-margin"><span className="blue">*</span> Online Store <span className="blue">*</span> </h2>
                 <p className="shop-text shop-upper">There are a lot of items available on our shop. Visit it now!</p>
-                <button type="button" className="shop-btn btn left shop-upper"><Ionicon icon="md-cart" fontSize="15px" color="#111" className="icons"/>&nbsp;Go to store</button>
+                <a href="/products" className="shop-btn btn left shop-upper"><Ionicon icon="ios-basket" fontSize="20px" color="#111" className="icons"/>&nbsp;Go to store</a>
               </div>
               <div className="col-md-6">
               <h2 className="shop-header shop-upper header-margin"> <span className="green">*</span> Store Hours <span className="green">*</span> </h2>

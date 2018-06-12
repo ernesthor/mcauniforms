@@ -10,7 +10,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
-        <div className="container">
+        <div className="container-fluid">
           <div className="navbar-header">
             <a className="navbar-brand" href="/">
               <img src={mcalogo} className="navbar-logo"/>
@@ -21,11 +21,16 @@ class Navbar extends Component {
             </button>
           </div>
           <div className="collapse navbar-collapse" id="navbarContent">
+            <ul className="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/products">Products</a></li>
+              <li><a href="/contact">Contact Us</a></li>
+            </ul>
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="/cart"><Ionicon icon="md-cart" fontSize="15px" color="#678b99" className="icons"/>Cart</a></li>
+              <li><a href="/login"><Ionicon icon="md-arrow-dropright-circle" fontSize="15px" color="#678b99" className="icons"/> Log in</a></li>
+              <li><a href="/register"><Ionicon icon="md-add-circle" fontSize="15px" color="#678b99" className="icons"/>Sign Up</a></li>
             </ul>
           </div>
         </div>

@@ -1,0 +1,1876 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+  /*--navbar--*/
+
+@media screen and (min-width: 320px) {
+  .navbar {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 10px;
+  }
+
+  .navbar-logo {
+    margin-top: 0;
+    height: 50px;
+    width: auto;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .navbar ul a {
+    font-family: 'Nanum Pen Script', cursive;
+    text-decoration: none;
+    font-size: 25px;
+    color: #678b99;
+    background-color: none;
+  }
+
+  .navbar ul li a:hover {
+    text-decoration: underline;
+    background-color: #fafafa;
+    cursor: pointer;
+  }
+
+  .navbar-toggle {
+    margin: 0;
+    padding: 3px;
+    border: 1px solid #678b99;
+    box-shadow: 1px 1px 1px #111;
+  }
+}
+
+/*--banner--*/
+
+@media screen and (min-width: 320px) {
+  .banner {
+    height: auto;
+    background-image: url(../images/JumbotronImage1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+    position:relative;
+  }
+
+  .banner-content {
+    margin-top: 25px;
+  }
+
+  .banner-header {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 52px;
+    text-shadow: 1px 1px #111;
+    color: #fafafa;
+  }
+
+  .banner-slogan {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 14px;
+    text-shadow: 1px 1px #111;
+    color: #fafafa;
+  }
+
+  .banner-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #111;
+    background-color: #fafafa;
+    box-shadow: 5px 10px 30px #111;
+    padding: 1px;
+  }
+
+  .banner-btn:hover {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: #111;
+    background-color: #fafafa;
+    border: 1px solid #111;
+    box-shadow: 5px 10px 15px #111;
+    padding: 1px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    height: auto;
+    background-image: url(../images/JumbotronImage1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+    position:relative;
+  }
+
+  .banner-content {
+    margin-top: 75px;
+  }
+
+  .banner-header {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 75px;
+    text-shadow: 2px 2px #111;
+    color: #fafafa;
+  }
+
+  .banner-slogan {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px #111;
+    color: #fafafa;
+  }
+
+  .banner-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 75px;
+    color: #111;
+    background-color: #fafafa;
+    box-shadow: 5px 10px 30px #111;
+    padding: 5px;
+  }
+
+  .banner-btn:hover {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 18px;
+    margin-bottom: 175px;
+    color: #111;
+    background-color: #fafafa;
+    border: 1px solid #111;
+    box-shadow: 5px 10px 15px #111;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .banner {
+    height: auto;
+    background-image: url(../images/JumbotronImage1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+    position:relative;
+  }
+
+  .banner-content {
+    margin-top: 175px;
+  }
+
+  .banner-header {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
+    text-shadow: 2px 2px #111;
+    color: #fafafa;
+  }
+
+  .banner-slogan {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px #111;
+    color: #fafafa;
+  }
+
+  .banner-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 175px;
+    color: #111;
+    background-color: #fafafa;
+    box-shadow: 5px 10px 30px #111;
+    padding: 5px;
+  }
+
+  .banner-btn:hover {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 18px;
+    margin-bottom: 175px;
+    color: #111;
+    background-color: #fafafa;
+    border: 1px solid #111;
+    box-shadow: 5px 10px 15px #111;
+    padding: 5px;
+  }
+}
+
+/*--pitcher--*/
+@media screen and (min-width: 320px) {
+  .pitcher-content {
+    height: auto;
+  }
+
+  .pitcher-text {
+    font-family: 'Nunito Semibold', sans-serif;
+    font-size: 8px;
+    color: #111;
+  }
+
+  .pitcher-header {
+    font-weight: 500;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 14px;
+    color: #111;
+    margin: 5px;
+  }
+
+  .pitcher-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .pitcher-img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pitcher-uni {
+    background-color: #678b99;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .pitcher-meds {
+    background-color: #a3c686;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .pitcher-acc {
+    background-color: #ffd96b;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .uni-header-cont {
+    position: relative;
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #678b99;
+    border-right: 2px solid #678b99;
+    border-bottom: 2px solid #678b99;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .uni-header-cont:hover {
+    background-color: #678b99;
+    box-shadow: 0 -5px 5px -5px #333;;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #a3c686;
+    border-right: 2px solid #a3c686;
+    border-bottom: 2px solid #a3c686;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont:hover {
+    background-color: #a3c686;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #ffd96b;
+    border-right: 2px solid #ffd96b;
+    border-bottom: 2px solid #ffd96b;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont:hover {
+    background-color: #ffd96b;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pitcher-content {
+    height: auto;
+  }
+
+  .pitcher-text {
+    font-family: 'Nunito Semibold', sans-serif;
+    font-size: 12px;
+    color: #111;
+  }
+
+  .pitcher-header {
+    font-weight: 500;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 26px;
+    color: #111;
+    margin: 5px;
+  }
+
+  .pitcher-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .pitcher-img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pitcher-uni {
+    background-color: #678b99;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .pitcher-meds {
+    background-color: #a3c686;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .pitcher-acc {
+    background-color: #ffd96b;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .uni-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #678b99;
+    border-right: 2px solid #678b99;
+    border-bottom: 2px solid #678b99;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .uni-header-cont:hover {
+    background-color: #678b99;
+    box-shadow: 0 -5px 5px -5px #333;;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #a3c686;
+    border-right: 2px solid #a3c686;
+    border-bottom: 2px solid #a3c686;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont:hover {
+    background-color: #a3c686;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #ffd96b;
+    border-right: 2px solid #ffd96b;
+    border-bottom: 2px solid #ffd96b;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont:hover {
+    background-color: #ffd96b;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .pitcher-content {
+    height: auto;
+  }
+
+  .pitcher-text {
+    font-family: 'Nunito Semibold', sans-serif;
+    font-size: 15px;
+    color: #111;
+  }
+
+  .pitcher-header {
+    font-weight: 500;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    color: #111;
+    padding: 10px;
+  }
+
+  .pitcher-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .pitcher-img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pitcher-uni {
+    background-color: #678b99;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .pitcher-meds {
+    background-color: #a3c686;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .pitcher-acc {
+    background-color: #ffd96b;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .uni-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #678b99;
+    border-right: 2px solid #678b99;
+    border-bottom: 2px solid #678b99;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .uni-header-cont:hover {
+    background-color: #678b99;
+    box-shadow: 0 -5px 5px -5px #333;;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #a3c686;
+    border-right: 2px solid #a3c686;
+    border-bottom: 2px solid #a3c686;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont:hover {
+    background-color: #a3c686;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #ffd96b;
+    border-right: 2px solid #ffd96b;
+    border-bottom: 2px solid #ffd96b;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont:hover {
+    background-color: #ffd96b;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+}
+
+/*--products--*/
+
+@media screen and (min-width: 320px) {
+  .product-content {
+    height: auto;
+  }
+
+  .product-slider {
+    padding: 0;
+  }
+
+  .product-display {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .carousel .slide img {
+    max-height: auto;
+    max-width: auto;
+  }
+
+  .product-catalog {
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+  }
+
+  .product-img {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  .product-desc {
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+  }
+
+  .product-price{
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .product-btn {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 10px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px #111;
+    float: right;
+    margin-right: 10px;
+  }
+
+  .product-btn:hover {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 10px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px #111;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .product-content {
+    height: auto;
+  }
+
+  .product-slider {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #000;
+  }
+
+  .product-display {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .carousel .slide img {
+    max-height: auto;
+    max-width: auto;
+  }
+
+  .product-catalog {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+  }
+
+  .product-img {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  .product-desc {
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    margin: 5px;
+  }
+
+  .product-price{
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .product-btn {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 10px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px #111;
+    float: right;
+    margin-right: 10px;
+
+  }
+
+  .product-btn:hover {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 10px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px #111;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .product-content {
+    height: auto;
+  }
+
+  .product-slider {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #000;
+  }
+
+  .product-display {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .carousel .slide img {
+    max-height: auto;
+    max-width: auto;
+  }
+
+  .product-catalog {
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+  }
+
+  .product-img {
+    width: auto;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  .product-desc {
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+  }
+
+  .product-price{
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .product-btn {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px #111;
+    float: right;
+    margin-right: 10px;
+
+  }
+
+  .product-btn:hover {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px #111;
+  }
+}
+
+/*--shop--*/
+
+@media screen and (min-width: 320px) {
+  .shop-background {
+    background-image: url(../images/JumbotronImage2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .shop-content {
+    color: white;
+    position: relative;
+  }
+
+  .shop-upper {
+    margin-left: 25px;
+  }
+
+  .shop-lower {
+    margin: 5px;
+  }
+
+  .shop-header {
+    font-weight: 700;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #111;
+  }
+
+  .shop-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+  .shop-time {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+
+  .shop-address {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+  .shop-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 10px;
+    color: #111;
+    background-color: #fafafa;
+    box-shadow: 5px 10px 30px #111;
+  }
+
+  .shop-btn:hover {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 10px;
+    color: #111;
+    background-color: #fafafa;
+    border: 1px solid #111;
+    box-shadow: 5px 10px 15px #111;
+  }
+
+  .row-maps {
+    padding-bottom: 50px;
+  }
+
+  .shop-map {
+    margin: auto;
+    width: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+
+  .shop-map:hover {
+    margin: auto;
+    width: 100%;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.5s;
+  }
+
+  .shop-mapdiv {
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .shop-background {
+    background-image: url(../images/JumbotronImage2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .shop-content {
+    color: white;
+    position: relative;
+  }
+
+  .shop-upper {
+    margin-left: 100px;
+  }
+
+  .shop-lower {
+    margin: 5px;
+  }
+
+  .shop-header {
+    font-weight: 700;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #111
+  }
+
+  .shop-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+  .shop-time {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+
+  .shop-address {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+  .shop-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 12px;
+    color: #111;
+    background-color: #fafafa;
+    box-shadow: 5px 10px 30px #111;
+  }
+
+  .shop-btn:hover {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 12px;
+    color: #111;
+    background-color: #fafafa;
+    border: 1px solid #111;
+    box-shadow: 5px 10px 15px #111;
+  }
+
+  .row-maps {
+    padding-bottom: 50px;
+  }
+
+  .shop-map {
+    margin: auto;
+    width: 70%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+
+  .shop-map:hover {
+    margin: auto;
+    width: 70%;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.5s;
+  }
+
+  .shop-mapdiv {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .shop-background {
+    background-image: url(../images/JumbotronImage2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .shop-content {
+    color: white;
+    position: relative;
+  }
+
+  .shop-upper {
+    margin-left: 100px;
+  }
+
+  .shop-lower {
+    margin: 0;
+  }
+
+  .shop-header {
+    font-weight: 700;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #111;
+  }
+
+  .shop-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+  .shop-time {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+
+  .shop-address {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px #111;
+  }
+
+  .shop-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 15px;
+    color: #111;
+    background-color: #fafafa;
+    box-shadow: 5px 10px 30px #111;
+  }
+
+  .shop-btn:hover {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 15px;
+    color: #111;
+    background-color: #fafafa;
+    border: 1px solid #111;
+    box-shadow: 5px 10px 15px #111;
+  }
+
+  .row-maps {
+    padding-bottom: 50px;
+  }
+
+  .shop-map {
+    margin: auto;
+    width: 70%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+
+  .shop-map:hover {
+    margin: auto;
+    width: 70%;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.5s;
+  }
+  .shop-mapdiv {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+  }
+}
+
+/*--contactus--*/
+
+@media screen and (min-width: 320px){
+  .contact-content {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .contact-form {
+
+  }
+
+  .form-btn {
+    padding: 0;
+  }
+
+  .form-captcha {
+    padding: 0;
+  }
+
+  .contact-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #f5f5f5;
+    float: right;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .contact-btn:hover {
+    border-radius: 5px;
+    border: 0;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .contact-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .form-error {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Nunito', serif;
+    color: red;
+  }
+
+  .form-captcha {
+    transform: scale(0.85);
+    -webkit-transform:scale(0.85);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+
+  /*--form-design--*/
+
+  .form-control {
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .form-control:focus {
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  input[type=text] {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  input[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+  input[type=text]:focus:-moz-placeholder { color:transparent; }
+
+  input[type=text]:focus::-moz-placeholder { color:transparent; }
+
+  input[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+  textarea[type=text]{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  textarea[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+  textarea[type=text]:focus:-moz-placeholder { color:transparent; }
+
+  textarea[type=text]:focus::-moz-placeholder { color:transparent; }
+
+  textarea[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+  input[type=text]::placeholder {
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 20px;
+      color: #111;
+  }
+
+  input[type=text]:-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  input[type=text]::-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  textarea[type=text]::placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+      color: #111;
+  }
+
+  textarea[type=text]:-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  textarea[type=text]::-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .contact-content {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .contact-form {
+
+  }
+
+  .form-btn {
+    padding: 0;
+  }
+
+  .form-captcha {
+    padding: 0;
+  }
+
+  .contact-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #f5f5f5;
+    float: right;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .contact-btn:hover {
+    border-radius: 5px;
+    border: 0;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .contact-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .form-captcha {
+    transform: scale(0.9);
+    -webkit-transform:scale(0.9);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+
+  .form-error {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Nunito', serif;
+    color: red;
+  }
+
+  /*--form-design--*/
+
+  .form-control {
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .form-control:focus {
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  input[type=text] {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  input[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+  input[type=text]:focus:-moz-placeholder { color:transparent; }
+
+  input[type=text]:focus::-moz-placeholder { color:transparent; }
+
+  input[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+  textarea[type=text]{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  textarea[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+  textarea[type=text]:focus:-moz-placeholder { color:transparent; }
+
+  textarea[type=text]:focus::-moz-placeholder { color:transparent; }
+
+  textarea[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+  input[type=text]::placeholder {
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 20px;
+      color: #111;
+  }
+
+  input[type=text]:-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  input[type=text]::-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  textarea[type=text]::placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+      color: #111;
+  }
+
+  textarea[type=text]:-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  textarea[type=text]::-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+}
+
+@media screen and (min-width: 1366px){
+  .contact-content {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .contact-form {
+    border-right: 1px dashed black;
+  }
+
+  .form-btn {
+    padding: 0;
+  }
+
+  .form-captcha {
+    padding: 0;
+  }
+
+  .contact-btn {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #f5f5f5;
+    float: right;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .contact-btn:hover {
+    border-radius: 5px;
+    border: 0;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .contact-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .form-captcha {
+    transform: scale(1);
+    -webkit-transform:scale(1);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+
+  .form-error {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Nunito', serif;
+    color: red;
+  }
+
+
+
+  /*--form-design--*/
+
+  .form-control {
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  .form-control:focus {
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  input[type=text] {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  input[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+  input[type=text]:focus:-moz-placeholder { color:transparent; }
+
+  input[type=text]:focus::-moz-placeholder { color:transparent; }
+
+  input[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+  textarea[type=text]{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  textarea[type=text]:focus::-webkit-input-placeholder { color:transparent; }
+
+  textarea[type=text]:focus:-moz-placeholder { color:transparent; }
+
+  textarea[type=text]:focus::-moz-placeholder { color:transparent; }
+
+  textarea[type=text]:focus:-ms-input-placeholder { color:transparent; }
+
+  input[type=text]::placeholder {
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 20px;
+      color: #111;
+  }
+
+  input[type=text]:-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  input[type=text]::-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  textarea[type=text]::placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+      color: #111;
+  }
+
+  textarea[type=text]:-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+
+  textarea[type=text]::-ms-input-placeholder {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #111;
+  }
+}
+
+/*--footer--*/
+
+@media screen and (min-width: 320px){
+  .footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #444;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .footer-division {
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .footer-content {
+    color: #fafafa;
+  }
+
+  .footer-content h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .footer-content h4 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 22px;
+  }
+
+  .footer-content h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+  }
+  .footer-logo {
+    height: auto;
+    width: 100px;
+  }
+
+  .footer-division {
+    padding-top: 20px;
+    padding-left: 50px;
+
+  }
+
+  .footer-copy {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #444;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .footer-division {
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .footer-content {
+    color: #fafafa;
+  }
+
+
+  .footer-content h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+  }
+
+  .footer-content h4 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .footer-content h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+  }
+  .footer-logo {
+    height: auto;
+    width: 150px;
+  }
+
+  .footer-division {
+    padding-top: 20px;
+    padding-left: 50px;
+
+  }
+
+  .footer-copy {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1366px){
+  .footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #444;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .footer-division {
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .footer-content {
+    color: #fafafa;
+  }
+
+  .footer-content h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    margin: 5px;
+  }
+
+  .footer-content h4 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+  }
+
+  .footer-content h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+  }
+  .footer-logo {
+    height: auto;
+    width: 150px;
+  }
+
+  .footer-division {
+    padding-top: 20px;
+    padding-left: 50px;
+
+  }
+
+  .footer-copy {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+  }
+}
+
+/*--other--*/
+
+@media screen and (min-width: 320px) {
+  .division-header {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    color: #f5f5f5;
+    text-shadow:
+     -1px -1px 0 #111,
+      1px -1px 0 #111,
+      -1px 1px 0 #111,
+       1px 1px 0 #111;
+    margin-bottom: 0;
+  }
+
+  .hr-header {
+    background-color: #fafafa;
+    height: 2px;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset;
+    border-width: 1px;
+  }
+
+  .sub-header {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 24px;
+  }
+
+  .header-margin {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .division-header {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    color: #f5f5f5;
+    text-shadow:
+     -1px -1px 0 #111,
+      1px -1px 0 #111,
+      -1px 1px 0 #111,
+       1px 1px 0 #111;
+    margin-bottom: 0;
+  }
+
+  .hr-header {
+    background-color: #fafafa;
+    height: 2px;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset;
+    border-width: 1px;
+  }
+
+  .sub-header {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+  }
+
+  .header-margin {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .division-header {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    color: #f5f5f5;
+    text-shadow:
+     -1px -1px 0 #111,
+      1px -1px 0 #111,
+      -1px 1px 0 #111,
+       1px 1px 0 #111;
+    margin-bottom: 0;
+  }
+
+  .hr-header {
+    background-color: #fafafa;
+    height: 2px;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset;
+    border-width: 1px;
+  }
+
+  .sub-header {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+  }
+
+  .header-margin {
+    margin-top: 50px;
+  }
+}
+
+/*--global-var--*/
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icons-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.white {
+  color: #fafafa;
+}
+
+.blue {
+  color: #678b99;
+}
+
+.green {
+  color: #a3c686;
+}
+
+.yellow {
+  color: #ffd96b;
+}

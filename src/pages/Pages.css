@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+.pages-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pages-content {
+  flex: 1 0 auto;
+}
+
+h1, h3, h5, p {
+  font-family: 'Nunito', sans-serif;
+}

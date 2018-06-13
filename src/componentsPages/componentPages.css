@@ -1,0 +1,403 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*--about--*/
+
+  .about-hist {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .about-content {
+    height: auto;
+  }
+
+  .about-text {
+    font-family: 'Nunito Semibold', sans-serif;
+    font-size: 12px;
+    color: #111;
+  }
+
+  .about-header {
+    font-weight: 500;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    color: #111;
+    padding: 0;
+  }
+
+  .about-list {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+  }
+
+  .about-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .about-img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-uni {
+    background-color: #678b99;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .about-meds {
+    background-color: #a3c686;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .about-acc {
+    background-color: #ffd96b;
+    width: 100%;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .uni-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #678b99;
+    border-right: 2px solid #678b99;
+    border-bottom: 2px solid #678b99;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .uni-header-cont:hover {
+    background-color: #678b99;
+    box-shadow: 0 -5px 5px -5px #333;;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #a3c686;
+    border-right: 2px solid #a3c686;
+    border-bottom: 2px solid #a3c686;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .meds-header-cont:hover {
+    background-color: #a3c686;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont {
+    box-shadow: 0 -5px 5px -5px #333;
+    border-left: 2px solid #ffd96b;
+    border-right: 2px solid #ffd96b;
+    border-bottom: 2px solid #ffd96b;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+  .acc-header-cont:hover {
+    background-color: #ffd96b;
+    box-shadow: 0 -5px 5px -5px #333;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
+  }
+
+/*--products--*/
+
+  .product-content {
+    height: auto;
+  }
+
+  .product-slider {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #000;
+  }
+
+  .product-display {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .carousel .slide img {
+    max-height: auto;
+    max-width: auto;
+  }
+
+  .product-catalog {
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+  }
+
+  .product-img {
+    width: auto;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  .product-desc {
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+  }
+
+  .product-price{
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .product-btn {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px #111;
+    float: right;
+    margin-right: 10px;
+
+  }
+
+  .product-btn:hover {
+    background-color: #678b99;
+    color: #fafafa;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px #111;
+  }
+
+  .pageprod-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
+  }
+
+  .pageprod-navbar li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .pageprod-navbar li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+/*--Contact--*/
+
+  .pcont-background {
+    background-image: url(../images/JumbotronImage2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .pcont-content {
+    height: auto;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .pcont-upper {
+    margin-left: 100px;
+  }
+
+  .pcont-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+  }
+
+  .pcont-time {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+  }
+
+
+  .pcont-address {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .pcont-maps {
+    padding-bottom: 50px;
+  }
+
+  .pcont-map {
+    margin: auto;
+    width: 70%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+
+  .pcont-map:hover {
+    margin: auto;
+    width: 70%;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.5s;
+  }
+
+  .pcont-mapdiv {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+  }
+
+
+/*--other--*/
+
+  .division-header {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    color: #f5f5f5;
+    text-shadow:
+     -1px -1px 0 #111,
+      1px -1px 0 #111,
+      -1px 1px 0 #111,
+       1px 1px 0 #111;
+    margin-bottom: 0;
+  }
+
+  .hr-header {
+    background-color: #fafafa;
+    height: 2px;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset;
+    border-width: 1px;
+  }
+
+  .sub-header {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+  }
+
+  .header-margin {
+    margin-top: 50px;
+  }
+
+/*--global-var--*/
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icons-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline {
+  display: inline;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.white {
+  color: #fafafa;
+}
+
+.blue {
+  color: #678b99;
+}
+
+.green {
+  color: #a3c686;
+}
+
+.yellow {
+  color: #ffd96b;
+}
+
+.lower {
+  padding-bottom: 50px;
+}

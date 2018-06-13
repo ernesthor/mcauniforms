@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer.js'
-import ContactUs from '../components/ContactUs.js'
+
+import PagesContact from '../componentsPages/PagesContact.js'
 
 import './Pages.css'
 
@@ -12,7 +13,7 @@ class Contact extends Component {
       <div className="pages-container">
         <Navbar/>
         <div className="pages-content">
-          <ContactUs/>
+          <PagesContact/>
         </div>
           <Footer/>
       </div>

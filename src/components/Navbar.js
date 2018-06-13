@@ -29,8 +29,6 @@ class Navbar extends Component {
             </ul>
             <ul className="nav navbar-nav navbar-right">
               <li><a href="/cart"><Ionicon icon="md-cart" fontSize="15px" color="#678b99" className="icons"/>Cart</a></li>
-              <li><a href="/login"><Ionicon icon="md-arrow-dropright-circle" fontSize="15px" color="#678b99" className="icons"/> Log in</a></li>
-              <li><a href="/register"><Ionicon icon="md-add-circle" fontSize="15px" color="#678b99" className="icons"/>Sign Up</a></li>
             </ul>
           </div>
         </div>

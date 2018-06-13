@@ -23,12 +23,12 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path ="/" component={Home}/>
+          <Route exact path ="/mca-admin" component={LogIn}/>
           <Route exact path ="/about" component={AboutUs}/>
           <Route exact path ="/contact" component={ContactUs}/>
           <Route exact path ="/products" component={Products}/>
           <Route exact path ="/cart" component={E404}/>
           <Route exact path ="/register" component={E404}/>
-          <Route exact path ="/login" component={E404}/>
           <Route exact path ="/404" component={E404}/>
         </div>
       </Router>

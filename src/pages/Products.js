@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer.js'
-import OurProducts from '../components/OurProducts.js'
-import ShopNow from '../components/ShopNow.js'
+
+import PagesProduct from '../componentsPages/PagesProduct.js'
 
 import './Pages.css'
 
@@ -13,8 +13,7 @@ class Products extends Component {
       <div className="pages-container">
         <Navbar/>
         <div className="pages-content">
-          <OurProducts/>
-          <ShopNow/>
+          <PagesProduct/>
         </div>
           <Footer/>
       </div>

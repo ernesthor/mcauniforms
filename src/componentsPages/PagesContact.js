@@ -14,17 +14,17 @@ class ContactUs extends Component {
     return (
       <div className="container-fluid">
         <div className="pcont-content">
-        <h1 className="division-header"> Contact Us! </h1>
-        <hr className="hr-header" width="15%"/>
+        <h1 className="pagesdivision-header"> Contact Us! </h1>
+        <hr className="pageshr-header" width="15%"/>
         <div className="">
           <div className="">
             <div className="row">
               <div className="col-md-6 pcont-form">
-              <h2 className="sub-header center"> <span className="blue">*</span> Be in touch. Inquire! <span className="blue">*</span> </h2>
+              <h2 className="pagessub-header center"> <span className="blue">*</span> Be in touch. Inquire! <span className="blue">*</span> </h2>
                 <ContactForm/>
               </div>
               <div className="col-md-6">
-              <h2 className="sub-header pcont-upper center"> <span className="green">*</span> Store Hours <span className="green">*</span> </h2>
+              <h2 className="pagessub-header pcont-upper center"> <span className="green">*</span> Store Hours <span className="green">*</span> </h2>
                 <h4 className="pcont-upper pcont-text inline">Monday-Friday: </h4>
                 <h4 className="pcont-time inline"> 9:00 A.M. - 6:00 P.M.</h4> <br/><br/>
                 <h4 className="pcont-upper pcont-text inline">Saturday: </h4>
@@ -34,7 +34,7 @@ class ContactUs extends Component {
               </div>
             </div>
             <div className="row pcont-maps">
-              <h2 className="sub-header center"> <span className="yellow">*</span> Visit Our Locations <span className="yellow">*</span></h2>
+              <h2 className="pagessub-header center"> <span className="yellow">*</span> Visit Our Locations <span className="yellow">*</span></h2>
               <div className="col-md-4 pcont-mapdiv">
                 <h4 className="pcont-address"> <Ionicon icon="ios-pin" fontSize="35px" color="#678b99" className="icons"/> Hollywood Terraces, K23 Sumulong Hwy, Sta. Cruz, Antipolo, 1870 Rizal </h4>
                 <div className="pcont-map"><ShopMap/></div>

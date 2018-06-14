@@ -10,10 +10,10 @@ class Pitcher extends Component {
     return (
       <div>
         <div className="container">
-          <h1 className="division-header"> About Us </h1>
-          <hr className="hr-header" width="15%"/>
+          <h1 className="pagesdivision-header"> About Us </h1>
+          <hr className="pageshr-header" width="15%"/>
           <div className="">
-            <h2 className="sub-header center"> History </h2>
+            <h2 className="pagessub-header center"> History </h2>
             <p className="about-hist">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt felis vestibulum, suscipit justo id, pellentesque nulla. Quisque pretium volutpat laoreet.
               Praesent nec nunc nec risus placerat convallis vitae eget nibh. Quisque cursus molestie convallis. Pellentesque ligula enim, ullamcorper sit amet scelerisque vel, porta vitae dui. Ut ut placerat dolor.
@@ -21,7 +21,7 @@ class Pitcher extends Component {
             </p>
           </div>
           <div className="about-content">
-            <h2 className="sub-header center"> Grab Your School Needs </h2>
+            <h2 className="pagessub-header center"> Grab Your School Needs </h2>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
               <div className="about-container">
                 <div className="row about-uni">
@@ -57,7 +57,7 @@ class Pitcher extends Component {
             </div>
           </div>
           <div className="">
-            <h2 className="sub-header center"> Schools </h2>
+            <h2 className="pagessub-header center"> Schools </h2>
               <p className="about-hist center">
                 We&#39;re offering uniforms for these schools, Variety are from SHS to College!
               </p>

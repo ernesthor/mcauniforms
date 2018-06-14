@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Navbar from '../components/Navbar.js'
+import NavbarProducts from '../componentsPages/NavbarProducts.js'
 import Footer from '../components/Footer.js'
 
 import PagesProduct from '../componentsPages/PagesProduct.js'
@@ -11,7 +11,7 @@ class Products extends Component {
   render() {
     return (
       <div className="pages-container">
-        <Navbar/>
+        <NavbarProducts/>
         <div className="pages-content">
           <PagesProduct/>
         </div>
